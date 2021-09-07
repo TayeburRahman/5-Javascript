@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Assingment 5</title>
+</head>
+<body>
+    <!--------------------------------------
+            main boddy 
+        ----------------------------------------->
+    <section class="container">
+        <!--------------------------------------
+            Mac Book 24-inch monitor image 
+        ----------------------------------------->
+        <div class="row pt-lg-5">
+            <div class="col-6 p-4">
+                    <img class="" src="image/mac.png" width="80%" alt="">
+            </div>
+
+            <!--------------------------------------
+            Mac Book M1 price forms
+            ----------------------------------------->
+            <div class="col-6 p-4">
+            <!--------heding text------------>
+                <div>
+                    <h1>Custom Your Blueb <span class="size-text">24-inch</span> iMac with <span class="apple-text">Apple M1</span> chip</h1>
+                    <p>Apple M1 chip with 8‑core CPU, 8‑core GPU, and 16‑core Neural Engine 8GB unified memory 256GB SSD storage 13-inch Retina display with True Tone Backlit Magic Keyboard - US English Touch Bar and Touch ID Two Thunderbolt / USB 4 ports</p>
+                </div>
+                <br>
+                <br>
+                <br>
+                <!--------memory category Price------------>
+                <div>
+                    <h4 class="memory-text">Memory</h4>
+                    <div class="memory-button">
+                        <button id="unified-8gbmemory" class=" rounded memory8gb-button p-1">8GB unified memory </button>
+                        <button id="unified-16gbmemory" class="rounded memory16gb-button p-1">16GB unified memory</button>
+                    </div>
+    
+                </div>
+                <br>
+                <br>
+                <!--------storage category Price------------>
+                <div>
+                    <h4 class="storage-text">Storage</h4>
+                    <div>
+                        <button class="storege256-button p-1 rounded"  id="storege-ssd256">256GB SSD storage</button>
+                        <button class="storege512-button p-1 rounded"  id="storege-ssd512">512Gb SSD storage</button>
+                        <button class="storege1tb-button p-1 rounded"  id="storege-ssd1tb">1Tb SSD stroage</button>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <!--------Delivery charge------------>
+                <div>
+                    <h4 class="delivery-text">Choose Your Delivery Option</h4>
+                    <div>
+                        <button class="free-delivery p-1 rounded" id="freeCost-delivery">Friday,Aug 25 FREE Prime Delivery</button>
+                        <button class="delivery-charge p-1 rounded" id="delivery-cost">Friday,Aug 21 Delivery charge $20</button>
+                    </div>
+    
+                </div>
+                <br>
+                <br>
+                <!--------Price form------------>
+                <div class="col-8">
+                    <div class=" bg-warning pt-1 pb-1 mb-2 rounded"><h5 class="mb-1 ms-3">Best Price   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   $<span id="best-price">1299</span></h5></div>
+                    <div><h5 class="ms-3">Extra Memory Cost   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     $<span id="extra-memory">0</span></h5></div>
+                    <div><h5 class="ms-3">Extra Storage Cost    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   $<span id="extra-storage">0</span></h5></div>
+                    <div><h5 class="ms-3"> Delivery charge    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    $<span id="delivery-Amount">0</span></h5></div>
+                    <hr>
+                    <div><h5 class="ms-3">Total Price   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   $<span id="total-price">1299</span></h5></div>
+    
+                </div>
+                <br>
+                <!--------Pomo Code Applyed------------>
+                <div class="">
+                    <h4>Add Pomo Code</h4>
+                    <div>
+                        <input class="p-2" id="promo-input" type="text" placeholder="Pomo Code">
+                        <button type="button"  id="promo-btn" class="btn btn-primary">Apply</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        
+        <!--------total price------------>
+        <footer class="position-relative">
+            <h1 class="position-absolute start-50">Total: $<span id="last-price">1299</span></h1>
+        </footer>
+    </section>
+    <br>
+    <br>
+    <br>
+    <script src="js/mac-book.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.size-text{
+    color: #76c428;
+}
+.apple-text{
+    color: #778899;
+}
+
+/*--------------------------------------
+Memory,Storege,Delivery ( text & button ) color 
+----------------------------------------*/
+.memory-text{
+    color: #003319;
+}
+.delivery-text{
+    color:#045757;
+}
+.storege256-button, .memory8gb-button, .free-delivery{
+    background-color: #a9c1c2;
+    color: rgb(52, 54, 59);
+}
+.storege1tb-button{
+    background-color: #7d975a;
+    color: rgb(255, 255, 255);
+}
+.storege512-button, .memory16gb-button, .delivery-charge{
+    background-color: 	#808000;
+    color: white;
+}
+
+/*---------hover Buttons---------- */
+.storege1tb-button:hover{
+    color: rgb(20, 22, 22);
+    background-color: #b4cf3a;
+}
+.storege512-button:hover, .memory16gb-button:hover, .delivery-charge:hover {
+    color: black;
+    background-color: #99FF33;
+}
+
+.storege256-button:hover, .memory8gb-button:hover, .free-delivery:hover{
+    background-color: #001933;
+    color: rgb(231, 231, 231);
+}
+
